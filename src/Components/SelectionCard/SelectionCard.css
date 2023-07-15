@@ -1,0 +1,11 @@
+.airplane {
+  font-size: 100px;
+  fill: "red";
+  stroke: "blue";
+}
+.dac-jfk {
+  transform: rotate(0.25turn);
+}
+.jfk-dac {
+  transform: rotate(-0.25turn);
+}
