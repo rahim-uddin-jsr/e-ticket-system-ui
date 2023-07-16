@@ -11,12 +11,13 @@ function App() {
           <SelectionCard isHide={isHide} />
         </Grid>
         <Grid item xs={2}>
-          <Card className="buy-now-card">
+          <Card className="buy-now-card" style={{ minHeight: "280px" }}>
             <Stack
               direction={{ xs: "column" }}
               spacing={{ xs: 1, sm: 2 }}
-              justifyContent="center"
+              justifyContent="space-around"
               alignItems="center"
+              style={{ minHeight: "280px" }}
             >
               <h2>
                 <span>&#2547;</span>
